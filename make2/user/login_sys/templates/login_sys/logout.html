@@ -1,0 +1,14 @@
+{% extends "login_sys/base.html" %}
+
+
+    {% block body %}
+    <nav>
+        <ul>
+            <li><a href="{% url 'login' %}">Login</a></li>
+            <li><a href="{% url 'signup' %}">Signup</a></li>
+        </ul>
+    </nav>
+        <div class="home">
+            <h1>You have been logged out successfuly</h1>
+        </div>
+    {% endblock %}
